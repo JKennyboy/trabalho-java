@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="petshoptela.jnlp">
+  <information>
+    <title>petshoptela</title>
+    <vendor>Kenny-Sam</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="petshoptela.jar" size="4135" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="petshoptela.Petshoptela"  name="petshoptela" />
+  <update check="always"/>
+</jnlp>
